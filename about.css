@@ -1,0 +1,125 @@
+.about{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-cards {
+    background-image: url(./map-lying-wooden-table.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 40px 20px; /* Relleno alrededor del contenedor de las tarjetas */
+    display: flex;
+    justify-content: space-around; /* Espacio entre tarjetas */
+    align-items: flex-start; /* Alineación en la parte superior */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en dispositivos pequeños */
+    gap: 20px; /* Espacio entre tarjetas */
+}
+    
+.title{
+    padding-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+hr{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    border: 2px solid #665446;
+    border-radius: 2px;
+}
+
+.description{
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #665446;
+}
+
+.info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-group img{
+    margin-left: 20px;
+    width: 630px;
+}
+
+.info-group{
+    margin: 0px 20px;
+}
+
+.info-group h4{
+    text-align: left;
+    font-size: 30px;
+    color: rgb(44,43,43);
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.info-group p{
+    margin-top: 10px;
+    padding: 10px 0px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#btn-about{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #665446;
+    color: white;
+}
+.cards-container {
+
+
+    display: flex;
+    justify-content: space-around; /* Espacio alrededor de las tarjetas */
+    align-items: flex-start; /* Alineación en la parte superior */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en dispositivos pequeños */
+    gap: 20px; /* Espacio entre tarjetas */
+    margin: 20px 0; /* Márgenes arriba y abajo */
+}
+
+.card {
+    flex: 1 1 calc(50% - 20px); /* Ancho del 50% menos el espacio entre tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Relleno interno */
+    background-color: #fff; /* Fondo blanco */
+}
+
+.card h2 {
+    font-size: 24px; /* Tamaño de la fuente para los títulos */
+    margin-bottom: 10px; /* Margen debajo del título */
+}
+
+.card p {
+    font-size: 16px; /* Tamaño de la fuente para el texto */
+    color: #333; /* Color del texto */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%; /* Las tarjetas ocuparán el 100% del ancho */
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%; /* Las tarjetas ocuparán el 100% del ancho */
+    }
+     }

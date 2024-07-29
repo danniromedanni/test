@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+    background-color: #040404c2;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Centra el logo verticalmente */
+    justify-content: center; /* Centra el logo horizontalmente */
+    width: auto; /* Ajusta el ancho automáticamente */
+    margin: 20px; /* Elimina el margen */
+}
+
+.logo img {
+    width: 50px; /* Ajusta el ancho del logo según el tamaño deseado */
+    height: auto; /* Mantiene la proporción del logo */
+    border-radius: 50%;
+}
+
+
+nav{
+    width: 50%;
+    margin: 32px;
+    display: inline-flex;
+    
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
